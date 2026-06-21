@@ -1,0 +1,69 @@
+# ============================================
+# 云心伴 .gitignore
+# ============================================
+
+# 依赖
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 环境变量（含敏感信息）
+.env
+.env.local
+.env.production
+
+# 构建产物
+dist/
+build/
+*.tsbuildinfo
+.next/
+
+# React Native
+mobile/android/app/build/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/.expo/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# 日志
+logs/
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# 模型文件（过大）
+ai-service/models/*.bin
+ai-service/models/*.onnx
+ai-service/models/*.pt
+ai-service/models/*.pth
+
+# 测试
+coverage/
+.nyc_output/
+
+# 临时文件
+tmp/
+temp/
+*.tmp

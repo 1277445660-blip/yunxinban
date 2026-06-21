@@ -1,0 +1,30 @@
+// 云心伴 - 温暖柔和主题色
+export const theme = {
+  colors: {
+    primary: '#14b8a6',
+    primaryLight: '#ccfbf1',
+    warm: '#FF6B6B',
+    warmLight: '#FFE4E1',
+    calm: '#2E8FB5',
+    calmLight: '#E8F4F8',
+    sand: '#FAF7F2',
+    bg: '#E8F4F8',
+    white: '#FFFFFF',
+    gray50: '#f9fafb',
+    gray100: '#f3f4f6',
+    gray200: '#e5e7eb',
+    gray300: '#d1d5db',
+    gray400: '#9ca3af',
+    gray500: '#6b7280',
+    gray600: '#4b5563',
+    gray700: '#374151',
+    gray800: '#1f2937',
+  },
+  moodGradient: {
+    great: 'from-green-300 to-primary-400',
+    good: 'from-primary-300 to-calm-300',
+    okay: 'from-yellow-200 to-orange-200',
+    down: 'from-orange-300 to-warm-300',
+    bad: 'from-warm-300 to-red-400',
+  },
+} as const;

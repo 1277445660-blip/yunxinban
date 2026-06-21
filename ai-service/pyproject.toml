@@ -1,0 +1,18 @@
+[project]
+name = "yunxinban-ai-service"
+version = "0.1.0"
+description = "云心伴 AI 心理陪伴微服务"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W"]
